@@ -159,6 +159,42 @@ header{
     font-style: normal;
     font-size: 0.8rem;
 }
+.ssh-span{
+    color: white;
+    font-family: "Press Start 2P", system-ui;
+    font-style: normal;
+    font-size: 0.8rem;
+}
+.http-span{
+    color: #ade8f4;
+    font-family: "Press Start 2P", system-ui;
+    font-style: normal;
+    font-size: 0.8rem;
+}
+.wordpress-span{
+    color: #82c0cc;
+    font-family: "Press Start 2P", system-ui;
+    font-style: normal;
+    font-size: 0.8rem;
+}
+.git-span{
+    color: #fb5607;
+    font-family: "Press Start 2P", system-ui;
+    font-style: normal;
+    font-size: 0.8rem;
+}
+.firebase-span{
+    color: #ffba08;
+    font-family: "Press Start 2P", system-ui;
+    font-style: normal;
+    font-size: 0.8rem;
+}
+.wireshark-span{
+    color: #0077b6;
+    font-family: "Press Start 2P", system-ui;
+    font-style: normal;
+    font-size: 0.8rem;
+}
 
 .button {
     display: inline-block;
