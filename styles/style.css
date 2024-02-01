@@ -16,11 +16,7 @@ body{
 .nav-link{
     color: #52b788 ;
 }
-header{
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
+
 .div-info{
    
     color: #52b788;
@@ -38,11 +34,6 @@ header{
   
 }
 
-.navbar{
-    position: absolute !important;
-    display: block !important;
-   
-}
 
  hr{
   width: 101%;
@@ -51,7 +42,7 @@ header{
 .card-project {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 40%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
@@ -59,7 +50,7 @@ header{
 
 .card-project img {
     width: 100%;
-    height: 100%;
+    height: 320px;
     border-radius: 10px;
 }
 
@@ -79,6 +70,57 @@ header{
   
 .container-card {
     padding: 2px 16px;
+}
+
+
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #80ed99;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    width: 33%;
+    height: 30px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+
+   margin-bottom: 10%;
+  }
+
+ 
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.skills span{
+    margin-left: 1%;
 }
 
 .java-span{
@@ -195,52 +237,15 @@ header{
     font-style: normal;
     font-size: 0.8rem;
 }
-
-.button {
-    display: inline-block;
-    border-radius: 4px;
-    background-color: #80ed99;
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 15px;
-    width: 33%;
-    height: 30px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
-
-   margin-bottom: 10%;
-  }
-
- 
-  
-  .button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
-
-  
-  .button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-  
-  .button:hover span {
-    padding-right: 25px;
-  }
-  
-  .button:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
-
-.skills span{
-    margin-left: 1%;
+.office-span{
+    color: #d8572a;
+    font-family: "Press Start 2P", system-ui;
+    font-style: normal;
+    font-size: 0.8rem;
+}
+.docker-span{
+    color: #48cae4;
+    font-family: "Press Start 2P", system-ui;
+    font-style: normal;
+    font-size: 0.8rem;
 }
