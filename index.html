@@ -37,6 +37,7 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#about-me-div">About me</a>
+                <a class="nav-link" href="#education">Education</a>
                 <a class="nav-link" href="#skills">Skills</a>
                 <a class="nav-link" href="#myprojects-div">My projects</a>
               </li>
@@ -55,7 +56,7 @@
     <br>
     <h2>About me</h2>
     <hr>
-    <p>
+    <p id="about-me-p">
       Hey! I've always been passionate about the world of computers and everything related to it. Since childhood, I
       spent hours tinkering with the PC. As I grew up, I decided to pursue a course of study at the State Industrial
       Technical Institute Antonio Meucci in Florence, where I earned a diploma as a Computer Expert. My passion for this
@@ -64,14 +65,14 @@
     </p>
   </div>
 
-  <div class="div-info">
+  <div class="div-info"  id="education">
       
     <h2>Education:</h2>
     <hr>
     <div class="education"> 
       <div class="education-container"></div>
       <img src="./images/meucci.png">
-      <p class="info-education">ITIS ANTONIO MEUCCI &#x2022; 2018 - 2023 &#x2022; Firenze, Italy <br>
+      <p class="info-education"><span class="education-title">ITIS ANTONIO MEUCCI &#x2022; 2018 - 2023 &#x2022; Firenze, Italy</span> <br>
         <span class="education-desc">Technical Institute with various training paths, including the computer science path where the main subjects are Computer Science, Systems and Networks and TPSIT. <br>
         <br>site: <a href="https://www.itismeucci.edu.it/" target="_blank">www.itismeucci.edu.it</a></span> </p>   
      
@@ -82,7 +83,7 @@
     <div class="education"> 
       <div class="education-container"></div>
       <img src="./images/trinity.png">
-      <p class="info-education">TRINITY COLLEGE LONDON &#x2022; 25/05/2018 &#x2022; Firenze, Italy <br>
+      <p class="info-education"><span class="education-title">TRINITY COLLEGE LONDON &#x2022; 25/05/2018 &#x2022; Firenze, Italy </span><br>
         <span class="education-desc">English course undertaken during middle school, obtaining the following certification: "GRADE 5 in spoken English CEFR Level B1.1". <br>
         <br>site: <a href="https://www.trinitycollege.it/" target="_blank">www.trinitycollege.it</a></span> </p>   
      
@@ -93,7 +94,7 @@
     <div class="education"> 
       <div class="education-container"></div>
       <img src="./images/freecodecamp.png">
-      <p class="info-education">freeCodeCamp &#x2022; 19/09/2023 &#x2022; Firenze, Italy <br>
+     <p class="info-education"><span class="education-title">freeCodeCamp &#x2022; 19/09/2023 &#x2022; Firenze, Italy</span> <br>
         <span class="education-desc">freeCodeCamp is a community of people from all around the world who are learning to code together, where various certificates can be earned. I have obtained the  "RESPONSIVE WEB CERTIFICATION".<br>
         <br>site: <a href="https://www.freecodecamp.org/" target="_blank">www.freecodecamp.org</a></span> </p>   
      
@@ -117,53 +118,45 @@
 
   </div>
 
+
   <div class="div-info" id="myprojects-div">
     <br>
     <h2>My projects</h2>
     <hr>
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="card-project">
-            <img src="./images/game_image.jpg" alt="Avatar" style="width:100%">
-            <div class="container">
-              <h4><b>My First Game Project</b></h4>
-              <ul>
-                <li>
-                  <p><span class="container-titles">Programming languages</span>:<span class="java-span"> JAVA</span></p>
-                </li>
-                <li>
-                  <p><span class="container-titles">Description</span><span class="description-span">: A simple 2D game </span></p>
-                </li>
-              </ul>
-
-              <button class="button" style="vertical-align:middle"><span>Go</span></button>
-
+    <div class="container-cards">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-sm-2">
+            <div class="card-project">
+              <img src="./images/game_image.jpg" alt="Avatar" style="width:100%">
+              <div class="container">
+                <h4><b>My First Game Project</b></h4>
+              
+  
+                <button class="button" style="vertical-align:middle"><span>Go</span></button>
+  
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="card-project">
-            <img src="./images/magenta.PNG" alt="Avatar" style="width:100%">
-            <div class="container">
-              <h4><b>Website for Magenta srl</b></h4>
-              <ul>
-                <li>
-                  <p><span class="container-titles">Programming languages</span>:<span class="java-span"> JAVA </span><span class="html-span">HTLM
-                    </span><span class="css-span">CSS </span><span class="javascript-span">JAVASCRIPT </span></p>
-                </li>
-                <li>
-                  <p><span class="container-titles">Description</span><span class="description-span">: A website that raises awareness about air quality, especially concerning fine particulate matter. In addition to providing information and data, it translates these into graphs. The data comprises static information collected by a Java software reading a .csv file and processing its details </span></p>
-                </li>
-              </ul>
-
-              <a href="https://projectmagentadavide.web.app/" target="_blank"><button class="button" style="vertical-align:middle"><span>Go</span></button></a>
-
-            </div>
+           
+          <div class="col-sm-2">
+            <div class="card-project">
+              <img src="./images/magenta.PNG" alt="Avatar" style="width:100%">
+              <div class="container">
+                <h4><b>Website for Magenta srl</b></h4>
+                
+  
+                <a href="https://projectmagentadavide.web.app/" target="_blank"><button class="button" style="vertical-align:middle"><span>Go</span></button></a>
+  
+              </div>
           </div>
+            
+            </div>
+         
         </div>
       </div>
     </div>
+
 
 
 
@@ -178,15 +171,15 @@
        <div class="footer-col">
          <h4>Contact me</h4>
          <ul>
-           <li><a href="" id="email-lowercase">davidecazzato04@gmail.com</a></li>
-           <li><a href="#">+39 3203846726</a></li>
+           <li><a href="mailto:davidecazzato04@gmail.com" id="email-lowercase">davidecazzato04@gmail.com</a></li>
+           <li><a href="tel:+393203846726">+39 3203846726</a></li>
            
          </ul>
        </div>
        <div class="footer-col">
-         <h4>get help</h4>
+         <h4>CV</h4>
          <ul>
-           
+           <li><a href="./DavideCazzatoCV.pdf" download>Download my CV</a></li>
          </ul>
        </div>
        <div class="footer-col">
