@@ -33,7 +33,7 @@ body{
 
 .div-info{
    
-    color: white;
+    color: white !important;
     opacity: 1;
     width: 100%;
     display: block !important;
