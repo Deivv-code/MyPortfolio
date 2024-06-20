@@ -377,10 +377,12 @@ body{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width: 100%;
+ 
 }
 .video-div{
   flex: 1;
-  margin-left: 22%;
+  margin-left: 322px;
 }
 
 
