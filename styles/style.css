@@ -381,8 +381,10 @@ body{
  
 }
 .video-div{
+
   flex: 1;
-  margin-left: 322px;
+  width: 100%;
+  text-align: center;
 }
 
 
