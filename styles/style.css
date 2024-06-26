@@ -47,6 +47,7 @@ body{
 
 #about-me-p{
   opacity: 0.7;
+  text-align: justify;
 }
 
 .div-info h2{
@@ -59,13 +60,20 @@ body{
   
 }
 
-#profile-pic{
-  border-radius: 50%;
-  width: 15%;
-  max-height: 80px;
+.about-me-img{
+  display: flex !important;
+  align-items: center !important;
+  width: 90%;
+}
+#profile-pic2{
+  width: 7%;
   margin-left: 1%;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
+  margin-bottom: 1%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+#profile-pic2:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 
