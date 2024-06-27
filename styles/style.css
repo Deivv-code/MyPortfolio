@@ -66,7 +66,7 @@ body{
   width: 90vw;
 }
 #profile-pic2{
-  width: 7%;
+  width: 7vw;
   margin-left: 1%;
   margin-bottom: 1%;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -78,7 +78,7 @@ body{
 
 
  hr{
-  width: 101%;
+  width: 101vw;
   margin: 10px -20px 20px;
 }
 
@@ -91,7 +91,7 @@ body{
     margin-top: 10px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 100%;
+    width: 100vw;
     margin-right: 2%;
  
     font-family: "Gelasio", serif;
@@ -578,12 +578,16 @@ body{
   }
   #profile-pic2{
     width: 10vw;
+
+  }
+  .about-me-img{
+    display: inline;
   }
   #about-me-div{
     width: 100vw;
     margin-left: auto;
     margin-right: auto;
-    font-size: 0.4rem;
+    font-size: 0.7rem;
   }
   hr{
     width: 100vw;
@@ -603,4 +607,28 @@ body{
   .navbar{
     width: 100vw;
   }
+  .button span{
+    text-align: center;
+  }
+  .card-project{
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .education{
+    width: 80vw;
+  }
+  .div-info{
+    width: 100vw;
+  }
+  #skills{
+    width: 100vw;
+  }
+  .title{
+    font-size: 1rem;
+  }
+  html{
+    width: 100vw;
+  }
+
   }
