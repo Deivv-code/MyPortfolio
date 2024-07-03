@@ -333,7 +333,7 @@ ul {
 }
 
 .image-game{
-  width: 11vw;
+  width: 15%;
   margin-left: 2%;
   margin-top: 5%;
   max-width: 100%;
@@ -372,6 +372,13 @@ ul {
   color: #80ed99;
 }
 
+.game-list a{
+  color: white;
+}
+
+.game-list a:hover{
+  color: khaki;
+}
 .credits{
   width: 8vw;
   
@@ -646,6 +653,24 @@ ul {
     *::before,
     *::after {
       box-sizing: border-box;
+    }
+    .p-game{
+      width: 100%;
+      font-size: 0.6rem;
+      margin-top: 18%;
+    }
+    .image-game{
+      width: 30%;
+    }
+    .video-div iframe{
+      width: 60%;
+      height: 150px;
+    }
+    .game-list{
+      font-size: 0.5rem;
+    }
+    .info-game{
+      font-size: 0.6rem;
     }
   }
   
