@@ -595,9 +595,10 @@ body{
       margin-right: auto;
       font-size: 0.7rem;
     }
-    hr {
-      width: 100%;
+    .about-me{
+      margin-top: 10%;
     }
+  
     .skills {
       width: 100%;
     }
