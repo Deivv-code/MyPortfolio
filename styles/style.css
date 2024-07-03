@@ -275,8 +275,8 @@ body{
   align-items: center;
 }
 .education img {
-  width: 10vw;
-  height: 100px;
+  width: 7vw;
+  
 
   max-width: 100%;
 }
@@ -563,82 +563,83 @@ body{
 
   
   /*responsive*/
-  @media(max-width: 767px){
-    .footer-col{
+  @media (max-width: 767px) {
+    .footer-col {
       width: 50%;
       margin-bottom: 30px;
-      
+    }
+    #profile-pic2 {
+      width: 10vw;
+    }
+    #about-me-div {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 0.5rem;
+    }
   }
-  #profile-pic2{
-    width: 10vw;
+  
+  @media (max-width: 574px) {
+    .footer-col {
+      width: 100%;
+    }
+    #profile-pic2 {
+      width: 10vw;
+    }
+    .about-me-img {
+      display: inline;
+    }
+    #about-me-div {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 0.7rem;
+    }
+    hr {
+      width: 100%;
+    }
+    .skills {
+      width: 100%;
+    }
+    .container-span {
+      width: 100%;
+    }
+    span {
+      font-size: 0.5rem !important;
+      width: 100%;
+    }
+    .navbar {
+      width: 100%;
+    }
+    .button span {
+      text-align: center;
+    }
+    .card-project {
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .education {
+      width: 80%;
+    }
+    .education img{
+      width: 10%;
+    }
+    .div-info {
+      width: 100%;
+    }
+    #skills {
+      width: 100%;
+    }
+    .title {
+      font-size: 1rem;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
   }
-  #about-me-div{
-    width: 100vw;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 0.5rem;
-  }
-  }
-  @media(max-width: 574px){
-    .footer-col{
-      width: 100vw;
-  }
-  #profile-pic2{
-    width: 10vw;
-
-  }
-  .about-me-img{
-    display: inline;
-  }
-  #about-me-div{
-    width: 100vw;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 0.7rem;
-  }
-  hr{
-    width: 100vw;
-  }
-  .skills{
-    width: 100vw;
-    
-  }
-  .container-span{
-    
-    width: 100vw;
-  }
-  span{
-    font-size: 0.5rem !important;
-    width: 100vw;
-  }
-  .navbar{
-    width: 100vw;
-  }
-  .button span{
-    text-align: center;
-  }
-  .card-project{
-    width: 70vw;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .education{
-    width: 80vw;
-  }
-  .div-info{
-    width: 100vw;
-  }
-  #skills{
-    width: 100vw;
-  }
-  .title{
-    font-size: 1rem;
-  }
-  *{
-    box-sizing: border-box;
-  }
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-  }
+  
