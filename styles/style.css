@@ -581,13 +581,13 @@ ul {
       margin-bottom: 30px;
     }
     #profile-pic2 {
-      width: 10vw;
+      width: 14%;
     }
     #about-me-div {
       width: 100%;
       margin-left: auto;
       margin-right: auto;
-      font-size: 0.5rem;
+      font-size: 0.7rem;
     }
   }
   
@@ -596,7 +596,8 @@ ul {
       width: 100%;
     }
     #profile-pic2 {
-      width: 10vw;
+      width: 20%;
+      margin-top: 0px;
     }
     .about-me-img {
       display: inline;
@@ -605,7 +606,7 @@ ul {
       width: 100%;
       margin-left: auto;
       margin-right: auto;
-      font-size: 0.7rem;
+      font-size: 0.8rem;
     }
     .about-me{
       margin-top: 10%;
@@ -618,7 +619,7 @@ ul {
       width: 100%;
     }
     span {
-      font-size: 0.5rem !important;
+      font-size: 0.6rem !important;
       width: 100%;
     }
     .navbar {
@@ -636,7 +637,7 @@ ul {
       width: 80%;
     }
     .education img{
-      width: 10%;
+      width: 15%;
     }
     .div-info {
       width: 100%;
@@ -656,7 +657,7 @@ ul {
     }
     .p-game{
       width: 100%;
-      font-size: 0.6rem;
+      font-size: 0.7rem;
       margin-top: 18%;
     }
     .image-game{
@@ -667,10 +668,10 @@ ul {
       height: 150px;
     }
     .game-list{
-      font-size: 0.5rem;
+      font-size: 0.6rem;
     }
     .info-game{
-      font-size: 0.6rem;
+      font-size: 0.7rem;
     }
   }
   
