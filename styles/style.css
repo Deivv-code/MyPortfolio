@@ -432,6 +432,16 @@ ul {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+.work-in-progress{
+  display: block;
+  background-color: #ffe97f;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Gelasio", serif;
+  font-style: normal;
+}
+
+
 .java-span{
     color: #dddf00;
     font-family: "Press Start 2P", system-ui;
