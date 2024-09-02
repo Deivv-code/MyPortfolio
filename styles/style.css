@@ -439,8 +439,12 @@ ul {
   font-size: 2rem;
   font-family: "Gelasio", serif;
   font-style: normal;
+  opacity: 0.6;
 }
 
+.work-in-progress-p{
+  opacity: 1 !important;
+}
 
 .java-span{
     color: #dddf00;
