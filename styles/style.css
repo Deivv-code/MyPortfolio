@@ -3,7 +3,7 @@
 body{
     background-color: #161a1d;
     position: relative;
-    
+    overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 .title{
     color: #52b788;
