@@ -672,7 +672,7 @@ ul {
     .p-game{
       width: 100%;
       font-size: 0.7rem;
-      margin-top: 18%;
+      margin-top: 30%;
     }
     .image-game{
       width: 30%;
@@ -686,6 +686,10 @@ ul {
     }
     .info-game{
       font-size: 0.7rem;
+    }
+    .work-in-progress-p{
+      font-size: 0.4rem;
+
     }
   }
   
