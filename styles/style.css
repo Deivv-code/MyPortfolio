@@ -31,7 +31,9 @@ body{
     font-family: "Gelasio", serif;
     font-style: normal;
 }
-
+.logo-nav{
+  width: 6%;
+}
 .div-info{
    
     color: white !important;
